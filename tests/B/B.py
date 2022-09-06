@@ -1,4 +1,4 @@
-# не оптимальный алгоритм, доработать
+# неоптимальный алгоритм, доработать
 number_of_disciplines = int(input())
 disciplines = dict()
 for i in range(number_of_disciplines):
