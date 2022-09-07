@@ -20,3 +20,21 @@ def plagiator2000(A, B, value='first'):
 
 plagiator2000(A, B)
 print(''.join(result))
+
+"""
+B = input()
+dict_of_letter = {i: A.count(i) for i in A}
+result = ['I' for i in range(len(A))]
+
+for num, symbol in enumerate(B):
+    if symbol == A[num]:
+            result[num] = 'P'
+            dict_of_letter[symbol] -= 1
+
+for num, symbol in enumerate(B):
+    if symbol != A[num]:
+        if A.find(symbol) >= 0 and dict_of_letter[symbol] > 0:
+            result[num] = 'S'
+            dict_of_letter[symbol] -= 1
+print(''.join(result))
+"""
