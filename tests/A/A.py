@@ -22,6 +22,7 @@ plagiator2000(A, B)
 print(''.join(result))
 
 """
+A = input()
 B = input()
 dict_of_letter = {i: A.count(i) for i in A}
 result = ['I' for i in range(len(A))]
